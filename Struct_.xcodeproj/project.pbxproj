@@ -7,24 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C745E771FAED87B0002FA2F /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C745E761FAED87B0002FA2F /* ResourcePath.mm */; };
-		4C745E7A1FAED87B0002FA2F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C745E791FAED87B0002FA2F /* main.cpp */; };
-		4C745E7D1FAED87B0002FA2F /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C745E7C1FAED87B0002FA2F /* cute_image.jpg */; };
-		4C745E7F1FAED87B0002FA2F /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4C745E7E1FAED87B0002FA2F /* nice_music.ogg */; };
-		4C745E811FAED87B0002FA2F /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C745E801FAED87B0002FA2F /* sansation.ttf */; };
-		4C745E831FAED87B0002FA2F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C745E821FAED87B0002FA2F /* icon.png */; };
+		4C745EA91FAED8A00002FA2F /* Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C745E8B1FAED8A00002FA2F /* Animation.cpp */; };
+		4C745EB21FAED8A00002FA2F /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C745E971FAED8A00002FA2F /* Card.cpp */; };
+		4C745EB31FAED8A00002FA2F /* Flip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C745E991FAED8A00002FA2F /* Flip.cpp */; };
+		4C745EB41FAED8A00002FA2F /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C745E9B1FAED8A00002FA2F /* Game.cpp */; };
+		4C745EB51FAED8A00002FA2F /* Meta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C745E9D1FAED8A00002FA2F /* Meta.cpp */; };
+		4C745EB61FAED8A00002FA2F /* Path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C745E9F1FAED8A00002FA2F /* Path.cpp */; };
+		4C745EB71FAED8A00002FA2F /* Position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C745EA11FAED8A00002FA2F /* Position.cpp */; };
+		4C745EBA1FAED8A00002FA2F /* Solitaire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C745EA51FAED8A00002FA2F /* Solitaire.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C745E711FAED87B0002FA2F /* Struct_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Struct_.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C745E751FAED87B0002FA2F /* Struct_-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Struct_-Info.plist"; sourceTree = "<group>"; };
-		4C745E761FAED87B0002FA2F /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
-		4C745E781FAED87B0002FA2F /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
-		4C745E791FAED87B0002FA2F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		4C745E7C1FAED87B0002FA2F /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		4C745E7E1FAED87B0002FA2F /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		4C745E801FAED87B0002FA2F /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		4C745E821FAED87B0002FA2F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4C745E8B1FAED8A00002FA2F /* Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animation.cpp; sourceTree = "<group>"; };
+		4C745E8C1FAED8A00002FA2F /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		4C745E971FAED8A00002FA2F /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		4C745E981FAED8A00002FA2F /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		4C745E991FAED8A00002FA2F /* Flip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Flip.cpp; sourceTree = "<group>"; };
+		4C745E9A1FAED8A00002FA2F /* Flip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flip.h; sourceTree = "<group>"; };
+		4C745E9B1FAED8A00002FA2F /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		4C745E9C1FAED8A00002FA2F /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		4C745E9D1FAED8A00002FA2F /* Meta.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Meta.cpp; sourceTree = "<group>"; };
+		4C745E9E1FAED8A00002FA2F /* Meta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meta.h; sourceTree = "<group>"; };
+		4C745E9F1FAED8A00002FA2F /* Path.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Path.cpp; sourceTree = "<group>"; };
+		4C745EA01FAED8A00002FA2F /* Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Path.h; sourceTree = "<group>"; };
+		4C745EA11FAED8A00002FA2F /* Position.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Position.cpp; sourceTree = "<group>"; };
+		4C745EA21FAED8A00002FA2F /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
+		4C745EA51FAED8A00002FA2F /* Solitaire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Solitaire.cpp; sourceTree = "<group>"; };
+		4C745EBD1FAEE1900002FA2F /* Struct_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Struct_.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,48 +50,31 @@
 		4C745E671FAED87B0002FA2F = {
 			isa = PBXGroup;
 			children = (
-				4C745E731FAED87B0002FA2F /* Struct_ */,
-				4C745E721FAED87B0002FA2F /* Products */,
+				4C745E891FAED8A00002FA2F /* Solitaire-master */,
+				4C745EBD1FAEE1900002FA2F /* Struct_.app */,
 			);
 			sourceTree = "<group>";
 		};
-		4C745E721FAED87B0002FA2F /* Products */ = {
+		4C745E891FAED8A00002FA2F /* Solitaire-master */ = {
 			isa = PBXGroup;
 			children = (
-				4C745E711FAED87B0002FA2F /* Struct_.app */,
+				4C745E8B1FAED8A00002FA2F /* Animation.cpp */,
+				4C745E8C1FAED8A00002FA2F /* Animation.h */,
+				4C745E971FAED8A00002FA2F /* Card.cpp */,
+				4C745E981FAED8A00002FA2F /* Card.h */,
+				4C745E991FAED8A00002FA2F /* Flip.cpp */,
+				4C745E9A1FAED8A00002FA2F /* Flip.h */,
+				4C745E9B1FAED8A00002FA2F /* Game.cpp */,
+				4C745E9C1FAED8A00002FA2F /* Game.h */,
+				4C745E9D1FAED8A00002FA2F /* Meta.cpp */,
+				4C745E9E1FAED8A00002FA2F /* Meta.h */,
+				4C745E9F1FAED8A00002FA2F /* Path.cpp */,
+				4C745EA01FAED8A00002FA2F /* Path.h */,
+				4C745EA11FAED8A00002FA2F /* Position.cpp */,
+				4C745EA21FAED8A00002FA2F /* Position.h */,
+				4C745EA51FAED8A00002FA2F /* Solitaire.cpp */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4C745E731FAED87B0002FA2F /* Struct_ */ = {
-			isa = PBXGroup;
-			children = (
-				4C745E761FAED87B0002FA2F /* ResourcePath.mm */,
-				4C745E781FAED87B0002FA2F /* ResourcePath.hpp */,
-				4C745E791FAED87B0002FA2F /* main.cpp */,
-				4C745E7B1FAED87B0002FA2F /* Resources */,
-				4C745E741FAED87B0002FA2F /* Supporting Files */,
-			);
-			path = Struct_;
-			sourceTree = "<group>";
-		};
-		4C745E741FAED87B0002FA2F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C745E751FAED87B0002FA2F /* Struct_-Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4C745E7B1FAED87B0002FA2F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4C745E7C1FAED87B0002FA2F /* cute_image.jpg */,
-				4C745E7E1FAED87B0002FA2F /* nice_music.ogg */,
-				4C745E801FAED87B0002FA2F /* sansation.ttf */,
-				4C745E821FAED87B0002FA2F /* icon.png */,
-			);
-			name = Resources;
+			path = "Solitaire-master";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +95,7 @@
 			);
 			name = Struct_;
 			productName = Struct_;
-			productReference = 4C745E711FAED87B0002FA2F /* Struct_.app */;
+			productReference = 4C745EBD1FAEE1900002FA2F /* Struct_.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +121,7 @@
 				en,
 			);
 			mainGroup = 4C745E671FAED87B0002FA2F;
-			productRefGroup = 4C745E721FAED87B0002FA2F /* Products */;
+			productRefGroup = 4C745E671FAED87B0002FA2F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -143,10 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C745E831FAED87B0002FA2F /* icon.png in Resources */,
-				4C745E811FAED87B0002FA2F /* sansation.ttf in Resources */,
-				4C745E7F1FAED87B0002FA2F /* nice_music.ogg in Resources */,
-				4C745E7D1FAED87B0002FA2F /* cute_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C745E7A1FAED87B0002FA2F /* main.cpp in Sources */,
-				4C745E771FAED87B0002FA2F /* ResourcePath.mm in Sources */,
+				4C745EB61FAED8A00002FA2F /* Path.cpp in Sources */,
+				4C745EB31FAED8A00002FA2F /* Flip.cpp in Sources */,
+				4C745EA91FAED8A00002FA2F /* Animation.cpp in Sources */,
+				4C745EB21FAED8A00002FA2F /* Card.cpp in Sources */,
+				4C745EB41FAED8A00002FA2F /* Game.cpp in Sources */,
+				4C745EBA1FAED8A00002FA2F /* Solitaire.cpp in Sources */,
+				4C745EB71FAED8A00002FA2F /* Position.cpp in Sources */,
+				4C745EB51FAED8A00002FA2F /* Meta.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +300,7 @@
 				4C745E881FAED87B0002FA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
